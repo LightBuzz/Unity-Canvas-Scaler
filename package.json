@@ -1,0 +1,12 @@
+{
+    "name": "com.lightbuzz.autocanvasscaler",
+    "version": "1.0.0",
+    "displayName": "LightBuzz Auto Canvas Scaler",
+    "description": "A handy canvas scaler for cross-platform Unity apps and games.",
+    "unity": "2019.4",
+    "author": {
+      "name": "LightBuzz Inc.",
+      "email": "info@lightbuzz.com",
+      "url": "https://lightbuzz.com"
+    }
+  }

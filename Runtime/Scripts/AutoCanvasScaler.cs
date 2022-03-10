@@ -95,6 +95,8 @@ namespace LightBuzz.UI
                 _scaler.referencePixelsPerUnit :
                 _scaler.referencePixelsPerUnit * _targetDPI / _scaler.defaultSpriteDPI;
 
+            if (scale > 1.0f) scale /= 2.0f;
+
             SetScaleFactor(scale);
             SetReferencePixelsPerUnit(ppu);
         }
